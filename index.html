@@ -11,32 +11,33 @@
     </head>
     <body>
        
-      <a-scene background="color: #ECECEC" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="">
-        <a-assets>
-            <img id="sky" src="https://cdn.jsdelivr.net/gh/HarrisonKS98/AframeLMC2700Project2@master/Equirec_cityNight.webp">
-            <img id="building" src="https://cdn.jsdelivr.net/gh/HarrisonKS98/AframeLMC2700Project2@master/building.png">
-        </a-assets>
-        <a-box scale="1 50 1" position="0 25 0" rotation="0 45 0" color="" shadow="" material="src: #building" geometry=""></a-box>
-        <a-box scale="0.04 1 0.04" position="0 50.96907 0" rotation="0 45 0" color="#4CC3D9" shadow="" material="color: #696969" geometry=""></a-box>
-        <a-sky material="" geometry="" src="#sky"></a-sky>
+        <a-scene vr-mode-ui="" screenshot="" keyboard-shortcuts="" inspector="" background="color: #ECECEC">
+            <a-assets>
+                <img id="building" src="https://cdn.jsdelivr.net/gh/HarrisonKS98/AframeLMC2700Project2@master/building.png"
+                <img id="sky" src="https://cdn.jsdelivr.net/gh/HarrisonKS98/AframeLMC2700Project2@master/Equirec_cityNight.webp">
+            </a-assets>
+            <a-box scale="1 50 1" position="0 25 0" rotation="0 45 0" color="#4CC3D9" shadow="" material="src: #building" geometry=""></a-box>
+            <a-box geometry="" material="color: #696969" shadow="" color="#4CC3D9" rotation="0 45 0" position="0 50.96907 0" scale="0.04 1 0.04"></a-box>
+            <a-sky geometry="" material="" src="#sky"></a-sky>
         
         
-         <a-entity id="rig" position="-0.43853 48.54134 3.41975">
-            <a-entity id="camera" position="" rotation="" camera="" look-controls="" data-aframe-inspector-original-camera=""></a-entity>
-         </a-entity>
+            <a-entity id="rig" position="-0.43853 48.54134 3.41975">
+                <a-entity id="camera" rotation="-26.01228389893936 -34.14828458979708 0" position="" data-aframe-inspector-original-camera="" look-controls="" camera=""></a-entity>
+            </a-entity>
        
-          <a-triangle scale="" position="-0.35469 49.99728 -0.36204" rotation="-29.999999999999996 -135 90" color="#CCC" material="color: #f9b406" geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" vertex-c="1 -1 0"></a-triangle>
-          <a-triangle position="0.34452 49.99087 -0.34937" rotation="-29.999999999999996 135 90" color="#CCC" material="color: #f9b406" geometry="vertexC: 1 0 0;       vertexB: 0 -0.5 0" vertex-c="1 -1 0"></a-triangle>
-          <a-triangle position="-0.33779 50 0.33601" rotation="-29.999999999999996 -45 90" color="#CCC" material="color: #f9b406" geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" vertex-c="1 -1 0"></a-triangle>
-          <a-triangle position="0.36809 50 0.34171" rotation="-29.999999999999996 45 90" color="#CCC" material="color: #f9b406" geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" vertex-c="1 -1 0"></a-triangle>
+            <a-triangle geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" material="color: #f9b406" color="#CCC" rotation="-29.999999999999996 -135 90" position="-0.35469 49.99728 -0.36204" scale="" vertex-c="1 -1 0"></a-triangle>
+            <a-triangle geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" material="color: #f9b406" color="#CCC" rotation="-29.999999999999996 135 90" position="0.34452 49.99087 -0.34937" vertex-c="1 -1 0"></a-triangle>
+            <a-triangle geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" material="color: #f9b406" color="#CCC" rotation="-29.999999999999996 -45 90" position="-0.33779 50 0.33601" vertex-c="1 -1 0"></a-triangle>
+            <a-triangle geometry="vertexC: 1 0 0; vertexB: 0 -0.5 0" material="color: #f9b406" color="#CCC" rotation="-29.999999999999996 45 90" position="0.36809 50 0.34171" vertex-c="1 -1 0"></a-triangle>
         
       
-          <a-plane scale="15 15 15" position="" rotation="-90 0 0" color="#7BC8A4" shadow="" material="" geometry="" height="4" width="4"></a-plane>
-          <div class="a-loader-title" style="display: none;">Hello, World! • A-Frame</div><div class="a-loader-title" style="display: none;">GETTING STARTED WITH BRACKETS</div><div class="a-loader-title" style="display: none;">GETTING STARTED WITH BRACKETS</div>
+            <a-plane scale="15 15 15" position="" rotation="-90 0 0" color="#7BC8A4" shadow="" material="" geometry="" height="4" width="4"></a-plane>
+            <div class="a-loader-title" style="display: none;">Hello, World! • A-Frame</div><div class="a-loader-title" style="display: none;">GETTING STARTED WITH BRACKETS</div>
         </a-scene>
+        
+    
+        
        
         
     </body>
 </html>
-
-
